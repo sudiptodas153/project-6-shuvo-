@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .playfair-font {
+            font-family: "Playfair Display", serif;
+        }
+
+        .hind-siliguri-light {
+            font-family: "Hind Siliguri", serif;
+            
+        }
+    </style>
+
+</head>
+</head>
+
+<body>
+    <header>
+        <div class="navbar bg-yellow-50">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Item 1</a></li>
+                        <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                                <li><a>Submenu 1</a></li>
+                                <li><a>Submenu 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+                <div class="grid row-span-2">
+                    <a class=" playfair-font font-bold text-2xl lg:text-4xl border-b-2 border-pink-500 ">First<span class="text-pink-500">M</span>eet</a>
+                    
+                    <a class="ml-10 lg:ml-32 font-medium text-pink-500">with<span class="text-black font-semibold">V</span>iya</a>
+                </div>
+            </div>
+            <div class="navbar-center ">
+                <img class="w-28" src="./images/WhatsApp_Image_2025-02-26_at_18.44.22_cdf060cb-removebg-preview (1).png" alt="">
+            </div>
+            <div class="navbar-end lg:hidden">
+                <a class="playfair-font font-bold">11-06-2k23</a>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
